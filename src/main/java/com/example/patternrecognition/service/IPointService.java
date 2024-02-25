@@ -7,7 +7,7 @@ import java.util.List;
 
 public interface IPointService {
 
-    void addPoint(Point point);
+    Point addPoint(Point point);
 
     List<Point> getAllPoints();
 

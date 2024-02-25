@@ -10,15 +10,16 @@ import java.util.List;
 public class PointRepository {
     private final List<Point> points = new ArrayList<>();
 
-    public void addPoint(Point point) {
+    public Point save(Point point) {
         points.add(point);
+        return point;
     }
 
-    public List<Point> getAll() {
+    public List<Point> findAll() {
         return points;
     }
 
-    public void removeAll() {
+    public void deleteAll() {
         points.clear();
     }
 

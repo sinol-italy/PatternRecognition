@@ -12,7 +12,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/")
-public class PatternRecognitionController implements IPointApi {
+public class PointController implements IPointApi {
 
     @Autowired
     private IPointService pointService;
